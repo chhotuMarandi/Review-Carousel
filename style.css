@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #e3edff;
+    background-color: #d2dce4;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -104,5 +104,29 @@ i {
     border: 2px solid #009adb;
     padding: 5px;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        max-width: 320px;
+    }
+
+    .image {
+        height: 110px;
+        width: 110px;
+        margin-bottom: 0;
+    }
+
+    img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
