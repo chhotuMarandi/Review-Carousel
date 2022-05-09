@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #e3edff;
 }
 
 .container, main{
@@ -10,3 +11,25 @@ body {
     align-items: center;
 }
 
+.container {
+    background-color: #ffffff;
+    margin: 0 2rem;
+    width: 720px;
+    padding: 2rem;
+}
+
+.image {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+img {
+    object-fit: cover;
+}
+
+h4, h3 {
+    text-align: center;
+}
