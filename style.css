@@ -101,5 +101,8 @@ i {
     margin: 10px;
     font-size: 20px;
     color: #009adb;
+    border: 2px solid #009adb;
+    padding: 5px;
+    border-radius: 5px;
 }
 
