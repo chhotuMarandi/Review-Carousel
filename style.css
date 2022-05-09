@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e3edff;
+    font-family: 'Oswald', sans-serif;
 }
 
 .container, main{
@@ -19,6 +20,7 @@ body {
     padding: 4rem 2rem;
     margin-top: 60px;
     border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .image {
@@ -42,25 +44,30 @@ h4, h3 {
 h3 {
     font-size: 1.5rem;
     letter-spacing: 5px;
+    color: #003f5e;
+    font-weight: 900;
 }
 
 h4 {
     margin: 5px;
     text-transform: uppercase;
     font-size: 15px;
+    color: #009adb;
 }
 
 p {
     font-size: 20px;
-    border: 1px solid black;
+    font-style: italic;
+    border: 1px solid #d1d1d1;
     padding: 15px;
     border-radius: 10px;
+    color: #004b6b;
+    margin-bottom: 0;
 }
 
 .slidebar {
-    margin: 20px;
-    padding: 20px 20px;
-    background-color: black;
+    margin: 0px;
+    padding: 10px 50px;
 }
 
 .underline {
@@ -75,5 +82,24 @@ h1 {
     margin-top: 30px;
     margin-bottom: 10px;
     font-size: 3rem;
+    font-weight: 900;
+    color: #003f5e;
+}
+
+button {
+    padding: 5px 15px;
+    font-size: 1em;
+    font-weight: 900;
+    border-radius: 8px;
+    color: #009adb;
+    border-color: #009adb;
+    /* border: 1px solid #009adb; */
+    background: transparent;
+}
+
+i {
+    margin: 10px;
+    font-size: 20px;
+    color: #009adb;
 }
 
