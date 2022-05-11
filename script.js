@@ -38,3 +38,9 @@ const img = document.getElementById("person-img");
 const name = document.getElementById("author");
 const job = document.getElementById("job");
 const info = document.getElementById("info");
+
+//select buttons
+
+const prevBtn = document.getElementById("prev-btn");
+const nextBtn = document.getElementById("next-btn");
+const random = document.getElementById("random");
