@@ -46,6 +46,7 @@ h3 {
     letter-spacing: 5px;
     color: #003f5e;
     font-weight: 900;
+    text-transform: capitalize;
 }
 
 h4 {
