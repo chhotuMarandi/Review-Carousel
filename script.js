@@ -12,7 +12,7 @@ const review = [
         name: "mark jones",
         job: "web developer",
         img: "https://images.unsplash.com/photo-1504199367641-aba8151af406?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
-        text: "1. Scope of skill improvement - A huge scope of developing own skill as there are many different types of projects. 2. Good environment - Very good and friendly working environment. 3. Co-operative seniors - Seniors are very helpful and supportive. 4. Work independence. 5.",
+        text: "1. Scope of skill improvement - A huge scope of developing own skill as there are many different types of projects. 2. Good environment - Very good and friendly working environment. 3. Co-operative seniors - Seniors are very helpful and supportive. 4.",
     },
     {
         id: 3,
