@@ -3,7 +3,7 @@ const review = [
     {
         id: 1,
         name: "jeneliya oslen",
-        job: "web developer",
+        job: "software developer",
         img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
         text: "he whole idea of working in a learning atmosphere (since it is a university), makes you feel young and gives the opportunity to interact and network with bright minds (Professors/Researchers). Work environment is amazing and I have a very supportive team",
     },
@@ -44,3 +44,45 @@ const info = document.getElementById("info");
 const prevBtn = document.getElementById("prev-btn");
 const nextBtn = document.getElementById("next-btn");
 const random = document.getElementById("random");
+
+//set starting item
+
+let currentItem = 0;
+
+//load intial item
+
+window.addEventListener("DOMContentLoaded", function() {
+    showPerson(currentItem);
+})
+
+//show person based on item
+
+function showPerson(person) {
+    const item = review[currentItem];
+    img.src = item.img;
+    name.textContent = item.name;
+    job.textContent = item.job;
+    info.textContent = item.text;
+}
+
+
+// show next person after click button
+
+nextBtn.addEventListener("click", function() {
+    currentItem++;
+    if(currentItem > review.length -1) {
+        currentItem = 0;
+   }
+    showPerson(currentItem);
+    
+})
+
+//show prev person after click button
+        
+prevBtn.addEventListener("click", function() {
+    currentItem--;
+    if(currentItem < 0) {
+        currentItem = review.length -1;
+    }
+    showPerson(currentItem); 
+})
