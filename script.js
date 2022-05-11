@@ -12,14 +12,14 @@ const review = [
         name: "mark jones",
         job: "web developer",
         img: "https://images.unsplash.com/photo-1504199367641-aba8151af406?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
-        text: "1. Scope of skill improvement - A huge scope of developing own skill as there are many different types of projects. 2. Good environment - Very good and friendly working environment. 3. Co-operative seniors - Seniors are very helpful and supportive. 4. Work independence. 5. No undue work pressure. 6. Very good appraisal.",
+        text: "1. Scope of skill improvement - A huge scope of developing own skill as there are many different types of projects. 2. Good environment - Very good and friendly working environment. 3. Co-operative seniors - Seniors are very helpful and supportive. 4. Work independence. 5.",
     },
     {
         id: 3,
         name: "yuan lee",
         job: "web developer",
         img: "https://images.unsplash.com/photo-1544168190-79c17527004f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60s",
-        text: "I have been working at Toppscholars for almost a year and to be honest this is a very good organization. I was unsure about working here before considering that it’s far away from my home but it’s worth it. The colleagues are very helpful and easy to talk to. I’m glad I have the opportunity to work here and develop my skills.",
+        text: "I have been working at Toppscholars for almost a year and to be honest this is a very good organization. I was unsure about working here before considering that it’s far away from my home but it’s worth it. The colleagues are very helpful and easy to talk to.",
     },
     {
         id: 4,
