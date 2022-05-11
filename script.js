@@ -26,7 +26,7 @@ const review = [
         name: "natasha carel",
         job: "web developer",
         img: "https://images.unsplash.com/photo-1542596768-5d1d21f1cf98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60",
-        text: "Work from home is so nice to have, this is company is highly professional. Gives lots of benefits and opportunity to grow to its employees. I have recetnly started in this company and i think i will have a good and long career ahead."
+        text: "Work from home is so nice to have, this is company is highly professional. Gives lots of benefits and opportunity to grow to its employees. I have recetnly started in this company and i think i will have a good and long career ahead.The colleagues are very helpful"
     }
     
     
