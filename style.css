@@ -106,6 +106,10 @@ i {
     border-radius: 5px;
 }
 
+i, button:hover{
+    cursor: pointer;
+}
+
 @media screen and (max-width: 800px) {
     .container {
         max-width: 320px;
